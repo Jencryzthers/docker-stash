@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos7:latest
 MAINTAINER Jean-Christophe Proulx <j.christophe@devjc.net>
 
 ADD install /data/install/
