@@ -1,6 +1,7 @@
 FROM centos:latest
 MAINTAINER Jean-Christophe Proulx <j.christophe@devjc.net>
-RUN yum install wget
+
+RUN yum clean all 
 
 ADD install /data/install/
 
