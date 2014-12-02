@@ -1,5 +1,5 @@
-FROM polinux/centos7:latest
-MAINTAINER Przemyslaw Ozgo <linux@ozgo.info>
+FROM centos:latest
+MAINTAINER Jean-Christophe Proulx <j.christophe@devjc.net>
 
 ADD install /data/install/
 
