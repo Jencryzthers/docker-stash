@@ -1,5 +1,6 @@
-FROM centos7:latest
+FROM centos:latest
 MAINTAINER Jean-Christophe Proulx <j.christophe@devjc.net>
+RUN yum install wget
 
 ADD install /data/install/
 
